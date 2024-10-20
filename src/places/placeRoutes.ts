@@ -2,7 +2,7 @@ import { Router, Request, Response } from "express";
 import { places } from "../data";
 import { Place } from "../dto/types";
 
-const router: Router = Router(); // Correctly define the router
+const router: Router = Router();
 
 // @route GET /api/places
 // @desc Fetch all historical places
